@@ -17,8 +17,8 @@ def run_calculator(data: numberInput):
     elif data.operation =="mul":
        total = data.num1 * data.num2
     else:
-       return {"error": "invalid opeartion ! please 'add', 'sub', or 'mul'."}
+       return {"error": "invalid operation ! please 'add', 'sub', or 'mul'."}
 
-    return {"result": total, "operation_used": data.operation}
+    return {"result": total, "operation": data.operation}
        
 
